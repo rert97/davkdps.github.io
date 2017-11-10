@@ -14,7 +14,7 @@ h1 {
 }
 img.sub-img{
     -webkit-border-radius: 40%;
-    border: solid 5px black;
+    border: solid 5px #000000;
 }
 h1{
 
@@ -24,16 +24,29 @@ background-image: url("nav-bg.png")
 )
 }
 .slide {
-height: auto;
-width: auto;
+    text-align: center;
+
 }
 table {
            border: solid 2px #000033;
 
        }
           td {
-            border: solid 2px #ff0000;
+            border: solid 2px #052D46;
             padding: 20px;
-
+            margin: 30px;
 
           }
+
+          td.head {
+               background-color: #F2F2F2;
+          }
+    tr.alter {
+            background-color: #F9F9F9;
+
+    }
+    img.img-h {
+
+     height: 220px;
+
+    }
