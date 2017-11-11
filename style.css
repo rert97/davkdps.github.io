@@ -7,13 +7,18 @@ body {
 .p-d {
                 padding-top: 60px;
 }
+  @font-face {
+    font-family: myFirstFont;
+    src: url(oreos.ttf);
+}
 h1 {
     font-weight: 800px;
    text-align: center;
-   padding-bottom: 10px;
+   padding-bottom: 60px;
    text-decoration:underline;
+   font-family: myFirstFont;
    font-size: xx-large;
-   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+
 }
 img.sub-img{
     -webkit-border-radius: 40%;
@@ -63,5 +68,7 @@ table {
    width: 700px;
    margin-left: 100px;
    }
-
-
+        .chrome{
+            display: block;
+            margin: auto;
+        }

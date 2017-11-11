@@ -25,9 +25,19 @@
     </div>
     <ul class="nav navbar-nav">
       <li class="active"><a href="index.html">Home</a></li>
-      <li><a href="index2.html">Hackers</a></li>
-      <li><a href="index3.html">Index3</a></li>
+      <li><a href="index2.html">Chromium Virus</a></li>
+      <li><a href="index3.html">Types of virus</a></li>
       <li><a href="index4.html">Index4</a></li>
+       </ul><ul class="nav navbar-nav navbar-right">
+             <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Creators
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li>Shivam Jha</li>
+          <li>Abhay Jha</li>
+          <li>Naman Urwar</li>
+          <li>Harsh Narayan</li>
+        </ul>
 </nav>      <h1> Prevent The world from Hacking!   </h1>
     <!--------------BEGINING OF SLIDER-------------------->
     <div class="slide">
@@ -65,6 +75,35 @@
   </a>
 </div>
 </div>
+<script>
+$(document).ready(function(){
+    // Activate Carousel
+    $("#myCarousel").carousel({interval: 1500});
+
+    // Enable Carousel Indicators
+    $(".item1").click(function(){
+        $("#myCarousel").carousel(0);
+    });
+    $(".item2").click(function(){
+        $("#myCarousel").carousel(1);
+    });
+    $(".item3").click(function(){
+        $("#myCarousel").carousel(2);
+    });
+    $(".item4").click(function(){
+        $("#myCarousel").carousel(3);
+    });
+
+    // Enable Carousel Controls
+    $(".left").click(function(){
+        $("#myCarousel").carousel("prev");
+    });
+    $(".right").click(function(){
+        $("#myCarousel").carousel("next");
+    });
+});
+</script>
+
 <!-------------END OF SLIDER-------------------------->
           <div class="p-d">
       What is Hacking?
@@ -75,7 +114,7 @@ It is not enough to have isolated computers systems; they need to be networked t
 This exposes them to the outside world and hacking. Hacking means using computers to commit fraudulent acts such as fraud, privacy invasion, stealing corporate/personal data, etc. Cyber crimes cost many organizations millions of dollars every year.
 Businesses need to protect themselves against such attacks.
 
-<h2>Who is a Hacker? Types of Hackers</h2>
+<h1>Who is a Hacker? Types of Hackers</h1>
      A Hacker is a person who finds and exploits the weakness in computer systems and/or networks to gain access. Hackers are usually skilled computer programmers with knowledge of computer security.
 
 Hackers are classified according to the intent of their actions.
