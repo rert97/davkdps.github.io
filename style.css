@@ -9,17 +9,24 @@ body {
 }
   @font-face {
     font-family: myFirstFont;
-    src: url(oreos.ttf);
+    src: url(font.ttf);
 }
 h1 {
     font-weight: 800px;
    text-align: center;
    padding-bottom: 60px;
    text-decoration:underline;
-   font-family: myFirstFont;
    font-size: xx-large;
 
 }
+h2{
+    text-decoration: underline;
+}
+
+h1,h2 {
+    font-family: myFirstFont;
+}
+
 img.sub-img{
     -webkit-border-radius: 40%;
     border: solid 5px #000000;
@@ -34,6 +41,7 @@ background-image: url("nav-bg.png")
 }
 table {
            border: solid 2px #000033;
+           width:auto;
 
        }
           td {
@@ -65,10 +73,13 @@ table {
    .slide {
 
    height: auto;
-   width: 700px;
-   margin-left: 100px;
+   width: auto;
+   margin-left: auto;
    }
         .chrome{
             display: block;
             margin: auto;
+        }
+        .pg1font{
+            font-size: 150%;
         }
