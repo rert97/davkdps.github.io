@@ -97,7 +97,7 @@ table {
             height: auto;
             display: none;
         }
-        .virimg{
-            height: auto;
-            width: auto;
-        }
+         .chrome{
+            display: block;
+            margin: auto;
+            max-width:300px;
