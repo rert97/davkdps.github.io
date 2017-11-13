@@ -83,3 +83,17 @@ table {
         .pg1font{
             font-size: 150%;
         }
+
+   @media only screen and (max-width: 500px) {
+    body {
+        margin: 0px;
+        padding: 0px;
+        padding-top: 70px;
+        }
+        table {
+            width: auto;
+            margin: auto;
+            padding: auto;
+            height: auto;
+            display: none;
+        }
