@@ -41,9 +41,10 @@ background-image: url("nav-bg.png")
 }
 table {
            border: solid 2px #000033;
-           width:auto;
-
+           width: 100%; 
+ 		 border-collapse: collapse;
        }
+	   
           td {
             border: solid 2px #052D46;
             padding: 20px;
@@ -60,7 +61,7 @@ table {
     }
     img.img-h {
 
-     height: 220px;
+     height: 50%;
 
     }
    img {
@@ -87,19 +88,19 @@ table {
             height: 315px;
             width: 560px;
         }
+		.inage{height:auto;width:auto;}
 
    @media only screen and (max-width: 500px) {
     body {
         margin: 0px;
         padding: 0px;
-        padding-top: 70px;
+        padding-top: 300px;
         }
         table {
-            width: auto;
-            margin: auto;
-            padding: auto;
-            height: auto;
-            display: none;
+         
+            display: block;
+			max-width:300px;
+			border: none;
         }
          .chrome{
             display: block;
@@ -110,5 +111,7 @@ table {
             max-width:300px;
 			
         }
-
-        }
+		.inage{
+		max-width:300px;
+		}
+		}
