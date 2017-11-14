@@ -96,6 +96,13 @@ table {
 	.adsbygoogle {
 	margin-bottom:20px;
 	}
+	img.img-m {
+	height: auto;
+	width:400px;
+	}
+	img.pp {
+		width: 50%;
+	}
    @media only screen and (max-width: 500px) {
     body {
         margin: 0px;
@@ -121,4 +128,14 @@ table {
 		.inage{
 		width:100%;
 		}
+		p.mob {
+		display:block;
+		float:left;
+		}
+		img-m {
+		max-width: auto;
+		}
+	img.pp {
+	width: 100%;
+	}
 				}
