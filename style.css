@@ -18,7 +18,7 @@ h1 {
    text-align: center;
    padding-bottom: 60px;
    text-decoration:underline;
-   font-size: xx-large;
+   font-size: 50px;
 
 }
 h2{
@@ -86,11 +86,13 @@ table {
         .pg1font{
             font-size: 150%;
         }
-        iframe.youtube{
+        iframe{
             height: 315px;
             width: 560px;
         }
-		.inage{height:auto;width:auto;}
+		.inage{
+		height:50%;
+		width:50%;}
 
    @media only screen and (max-width: 500px) {
     body {
@@ -111,9 +113,10 @@ table {
         }
         iframe{
             max-width:300px;
+			margin: 20px;
 			
         }
 		.inage{
-		max-width:300px;
+		width:100%;
 		}
 		}
