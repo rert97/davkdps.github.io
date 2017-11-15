@@ -25,6 +25,7 @@ img.pp{width:50%;}
 @media only screen and (max-width:500px){body{margin:0px; padding-top:70px;}
 table{display:block;max-width:300px;border:none; width:auto;}
 .img-h{max-width:300px;}
+.img-s{max-width:150px;}
 .chrome{display:block;margin:auto;max-width:300px;}
 iframe{max-width:300px;margin:20px;}
 .inage{width:100%;}
