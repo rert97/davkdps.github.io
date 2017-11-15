@@ -32,5 +32,5 @@ iframe{max-width:300px;margin:20px;}
 p.mob{display:block;float:left;}
 img-m{max-width:auto;}
 img.pp{width:100%;}
-.img-class{ display:inline-table; max-width:150px;}
+.img-class{ display:block;}
 }
