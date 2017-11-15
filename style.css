@@ -12,7 +12,7 @@ table{border:solid 2px #000033;width:100%;border-collapse:collapse;}
 td{border:solid 2px #052D46;padding:20px;margin:30px;}
 td.head{background-color:#F2F2F2;}
 tr.alter{background-color:#F9F9F9;}
-img.img-h{height:50%;}
+img.img-h{height:75%;}
 img{padding-top:30px;padding-bottom:30px;}
 .slide{height:auto;width:auto;margin-left:auto;}
 .chrome{display:block;margin:auto;}
@@ -24,6 +24,7 @@ img.img-m{height:auto;width:400px;}
 img.pp{width:50%;}
 @media only screen and (max-width:500px){body{margin:0px;padding:70px;}
 table{display:block;max-width:300px;border:none; width:auto;}
+.img-h{max-width:50px; max-height:50px; height:auto; width:auto;}
 .chrome{display:block;margin:auto;max-width:300px;}
 iframe{max-width:300px;margin:20px;}
 .inage{width:100%;}
