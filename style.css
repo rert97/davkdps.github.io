@@ -22,8 +22,8 @@ iframe{height:315px;width:560px;}
 .adsbygoogle{margin-bottom:20px;}
 img.img-m{height:auto;width:400px;}
 img.pp{width:50%;}
-@media only screen and (max-width:500px){body{margin:0px; padding-top:70px;}
-table{display:block;max-width:300px;border:none; width:auto;}
+@media only screen and (max-width:500px){body{margin:0px;padding:0px; padding-top:70px;}
+table{display:block;max-width:300px;border:none; width:auto; margin:0px; padding:0px;}
 .img-s{max-width:150px;}
 .chrome{display:block;margin:auto;max-width:300px;}
 iframe{max-width:300px;margin:20px;}
