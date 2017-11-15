@@ -24,7 +24,7 @@ img.img-m{height:auto;width:400px;}
 img.pp{width:50%;}
 @media only screen and (max-width:500px){body{margin:0px;padding:70px;}
 table{display:block;max-width:300px;border:none; width:auto;}
-.img-h{max-width:150px; max-height:150px;}
+.img-h{max-width:300px;}
 .chrome{display:block;margin:auto;max-width:300px;}
 iframe{max-width:300px;margin:20px;}
 .inage{width:100%;}
