@@ -29,6 +29,6 @@ table{display:block;max-width:300px;border:none; width:auto; margin:0px; padding
 iframe{max-width:300px;margin:20px;}
 .inage{width:100%;}
 p.mob{display:block;float:left;}
-img-m{max-width:auto;}
+img-m{max-width:50%;}
 img.pp{width:100%;}
 }
