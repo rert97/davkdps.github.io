@@ -9,7 +9,13 @@
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="plugins/preloader.js"></script>
+<link rel='stylesheet' href='plugins/rainbow.css'>
 <style>
 .col-xs-8, .col-sm-8, .col-lg-8, .col-xs-4, .col-sm-4, .col-lg-4 {
     border-right: 2px solid black;
@@ -23,7 +29,10 @@
   <audio autoplay loop>
   <source src="audio/bgsound.mp3" type="audio/mpeg">
   </audio>
-
+	<div id="preloader">
+		<div class='preloader-whole'><div class='cssload-loader-inner'> <div class='cssload-cssload-loader-line-wrap-wrap'> <div class='cssload-loader-line-wrap'></div></div><div class='cssload-cssload-loader-line-wrap-wrap'><div class='cssload-loader-line-wrap'></div></div><div class='cssload-cssload-loader-line-wrap-wrap'><div class='cssload-loader-line-wrap'></div></div><div class='cssload-cssload-loader-line-wrap-wrap'><div class='cssload-loader-line-wrap'></div></div><div class='cssload-cssload-loader-line-wrap-wrap'><div class='cssload-loader-line-wrap'></div></div></div></div>
+	</div>
+	<div style="display:none;" id="body-hider">
     <div class="container">
   <div class="container">
 <nav class="navbar navbar-inverse navbar-fixed-top custom">
@@ -55,6 +64,7 @@
           <li>Harsh Narayan</li>
           <li>Rahul Anand</li>
         </ul>
+	</div>
 </nav>      <h1> Prevent The world from Hacking!   </h1>
     <!--------------BEGINING OF SLIDER-------------------->
     <div class="slide">
@@ -121,7 +131,8 @@ $(document).ready(function(){
     // });
 });
 </script>
-
+</div>
+</div>
 <!-------------END OF SLIDER-------------------------->
 <h2>What is Hacking?</h2>
 
@@ -168,11 +179,8 @@ The following list classifies hackers according to their intent.</p>
 </table>
 </p>
 </div>
-<!-- jQuery library -->
-<script async src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-<!-- Latest compiled JavaScript -->
-<script async src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</div>
+</div>
 </body>
 
 </html>
